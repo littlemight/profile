@@ -1,0 +1,29 @@
+:root {
+  /* Ayu gray gradient */
+  --gray0: #f0f0f0;
+  --gray1: #e7e8e9;
+  --gray2: #707a8c;
+  --gray3: #4d5566;
+  --gray4: #273747;
+  --gray5: #1b2733;
+  --gray6: #101521;
+
+  /* Ayu Dark */
+  --dark-bg: #0a0e14;
+  --dark-fg: #b3b1ad;
+  --dark-ui-line: #191e2ad8;
+  --dark-ui: #4d5566c8;
+  --dark-accent: #e6b450;
+  --dark-comment: #626a7396;
+}
+
+.dark {
+  --text: var(--gray0);
+  --bg: var(--dark-bg);
+  --bg-nav: linear-gradient(to right, var(--gray4), var(--gray6));
+  --fg: var(--dark-fg);
+  --odd: var(--dark-ui-line);
+  --even: var(--dark-ui);
+  --footer: var(--dark-comment);
+  --text-contrast: var(--dark-accent);
+}

@@ -1,3 +1,5 @@
+@import "theme.css";
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +8,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Nunito Sans", serif;
+  color: var(--text);
+  background: var(--bg);
 }
 
 .avatar {
@@ -29,7 +33,7 @@ a {
   top: 0;
   height: 70px;
   width: 100%;
-  background: darkblue;
+  background: var(--bg-nav);
   z-index: 1;
 }
 
@@ -52,15 +56,16 @@ a {
 
 header {
   padding: 1em;
-  background: darkblue;
+  background: var(--bg-nav);
   margin-top: 70px;
   margin-bottom: 1em;
   padding-bottom: 3.5em;
   text-align: center;
+  clip-path: polygon(100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
 }
 
 footer {
-  background: cyan;
+  background: var(--footer);
   padding: 1em;
   padding-left: 20%;
   padding-right: 20%;
@@ -77,4 +82,20 @@ section {
   padding-left: 20%;
   padding-right: 20%;
   text-align: center;
+}
+
+#experience {
+  background: var(--odd);
+  backdrop-filter: hue-rotate(180deg);
+  clip-path: polygon(100% 10%, 100% 100%, 0 90%, 0 0);
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+#education {
+  background: var(--even);
+  backdrop-filter: hue-rotate(270deg);
+  clip-path: polygon(100% 0%, 100% 85%, 0 100%, 0 15%);
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
