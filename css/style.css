@@ -110,6 +110,18 @@ section {
   padding-bottom: 5%;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--odd);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--even);
+}
+
 @media (max-width: 700px) {
   body::-webkit-scrollbar {
     width: 0.3rem;
