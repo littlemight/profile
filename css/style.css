@@ -1,4 +1,5 @@
 @import "theme.css";
+@import "timeline.css";
 
 html {
   scroll-behavior: smooth;
@@ -76,6 +77,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.sec-title {
+  text-align: center;
 }
 
 #about {
