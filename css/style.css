@@ -110,6 +110,26 @@ section {
   padding-bottom: 5%;
 }
 
+@media (max-width: 700px) {
+    body::-webkit-scrollbar {
+        width: 0.3rem;
+    }
+
+    #experience {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    #education {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    footer {
+        padding-top: 10%:
+    }
+}
+
 #particles-canvas {
   position: fixed;
   top: 0;
