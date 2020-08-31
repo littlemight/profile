@@ -11,9 +11,11 @@
       href="https://fonts.googleapis.com/css?family=Nunito+Sans"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script.js"></script>
     <script src="https://use.fontawesome.com/3360417ee7.js"></script>
   </head>
   <body class="dark">
+    <canvas id="particles-canvas"></canvas>
     <nav class="navbar">
       <ul class="nav-list">
         <li class="nav-item">
@@ -41,14 +43,29 @@
 
     <header>
       <img src="./assets/avatar.png" alt="" class="avatar" />
-      <h1>Michel Fang</h1>
-      <h2>a student.</h2>
+      <h1>Michel <span class="contrast">Fang</span></h1>
+      <h2>
+        a
+        <span
+          class="txt-type contrast"
+          data-wait="1000"
+          data-words='["student", "programmer", "geek"]'
+        ></span
+        >.
+      </h2>
     </header>
 
     <main>
       <section id="about">
+        <hr />
+        <hr />
+        <hr />
         <h2>institut teknologi bandung</h2>
+        <hr />
+
         <h2>banjarmasin, 12 oktober 2001</h2>
+        <hr />
+
         <ul>
           <li><h3>react</h3></li>
           <li><h3>node</h3></li>
@@ -57,11 +74,18 @@
           <li><h3>git</h3></li>
           <li><h3>linux</h3></li>
         </ul>
+        <hr />
         <ul>
           <li><h3>c++</h3></li>
           <li><h3>c</h3></li>
           <li><h3>java</h3></li>
+          <li><h3>python</h3></li>
         </ul>
+        <hr />
+        <p>*might look different on firefox</p>
+        <hr />
+        <hr />
+        <hr />
       </section>
       <section id="experience">
         <h1 class="sec-title">experience</h1>

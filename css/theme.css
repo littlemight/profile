@@ -15,6 +15,14 @@
   --dark-ui: #4d5566c8;
   --dark-accent: #e6b450;
   --dark-comment: #626a7396;
+
+  /* Ayu Light */
+  --light-bg: #e7e8e9;
+  --light-fg: #575f66;
+  --light-ui-line: #707a8c7a;
+  --light-ui: #8a91995a;
+  --light-accent: #ff9940;
+  --light-comment: #abb0b66a;
 }
 
 .dark {
@@ -26,4 +34,15 @@
   --even: var(--dark-ui);
   --footer: var(--dark-comment);
   --text-contrast: var(--dark-accent);
+}
+
+.light {
+  --text: var(--gray6);
+  --bg: var(--light-bg);
+  --bg-nav: linear-gradient(to right, var(--gray1), var(--gray3));
+  --fg: var(--light-fg);
+  --odd: var(--light-ui-line);
+  --even: var(--light-ui);
+  --footer: var(--light-comment);
+  --text-contrast: var(--light-accent);
 }
